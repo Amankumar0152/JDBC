@@ -10,7 +10,7 @@ class Bug
         Connection con = DriverManager.getConnection(url, username, password);
         Statement st = con.createStatement();
 
-      String insert ="insert into student values(5, 'Aaradhya', 'varanasi') ";
+      String insert ="insert into student values(7, 'Aman', 'varanasi') ";
       st.execute(insert);
       System.out.println("query executed");
     }
